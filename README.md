@@ -3,7 +3,7 @@ ELK with redis input
 
 ###Help:
 Default boot command: 
-`docker run -d -p 80:80 -p 3333:3333 -p 9200:9200 -p 6379:6379 redis-elk`
+`docker run -d -p 80:80 -p 3333:3333 -p 9200:9200 -p 6379:6379 leorowe/redis-elk`
 
 Default command will start ELK and redis-server within a docker.
 * Kibana in 80
